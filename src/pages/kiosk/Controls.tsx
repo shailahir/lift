@@ -8,7 +8,7 @@ import CloseElevatorDoor from "../../assets/close-elevator-door.png";
 const Controls = () => {
   return (
     <Card
-      style={{ minWidth: "500px", height: "auto" }}
+      style={{ minWidth: "350px", height: "auto" }}
       accent="top"
       variant="secondary"
     >
@@ -54,7 +54,7 @@ const Controls = () => {
         <GridItem colSpan={1} horizontalAlignment="center">
           <Button className="control-btn">Go</Button>
         </GridItem>
-        <GridItem colSpan={1} horizontalAlignment="center">
+        {/* <GridItem colSpan={1} horizontalAlignment="center">
           <Button className="control-btn">
             <img src={CloseElevatorDoor} />
           </Button>
@@ -68,7 +68,7 @@ const Controls = () => {
           <Button className="control-btn">
             <NotificationIcon size={3} />
           </Button>
-        </GridItem>
+        </GridItem> */}
       </GridLayout>
     </Card>
   );
